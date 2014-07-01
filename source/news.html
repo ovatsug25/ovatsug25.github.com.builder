@@ -1,0 +1,18 @@
+---
+layout: default
+title: Gustavo Tavares
+---
+<section id="posts_index">
+<!-- <header><h3>Posts</h3></header> -->
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li>
+      <a class="link-to-post" href="{{ post.url }}">{{ post.title }}</a>
+      <br />
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <span class="location">{{ post.location }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+

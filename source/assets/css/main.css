@@ -1,0 +1,75 @@
+      body, h1,h2,h3,h4,h5,h6 {
+        font-family: georgia;
+      }
+      .menu a {
+        display: block;
+      }
+      .line {
+        fill: none;
+        stroke: black
+        stroke-width: 1.5px;
+      }
+      .section {
+        margin-top:20px;
+      }
+      .section .headline {
+        font-weight: bold;
+      }
+      #DOM .line {
+        stroke: red !important;
+        stroke-width:10px !important;
+        z-index: 9999 !important;
+      }
+      .hylotron-120 {
+        background-image: url(/images/hylotron/hylotron_front.120px.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 64px;
+        height: 120px;
+        margin-bottom: 5px;
+      }
+      .hylotron-64 {
+        background-image: url(/images/hylotron/hylotron_front.64px.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+        width: 34px;
+        height: 64px;
+        padding: 10px;
+        margin-bottom: 5px;
+      }
+      .container {
+        background-color: #663399; /* rebeccapurple */
+      }
+      .purp-darkest { background-color: #3B0D6A; }
+      .purp-dark { background-color: #501B85; }
+      .purp { background-color: #663399; }
+      .purp-light { background-color: #7C4EAB; }
+      .purp-lightest { background-color: #A079C8; }
+      .complement-lightest { color: #FFF892 }
+      .complement-light { color: #FDF368 }
+      .complement { color: #E3D83F }  /* Main Complement color */
+      .complement-dark { color: #C6BB1C }
+      .complement-darkest { color: #9D9409 }
+
+      .success-guide-foreword {
+        padding: 60px;
+      }
+
+      .mardi-gras-yellow { color: #FFFF66;}
+      .mardi-gras-green { color: #009966;}
+
+      /* *** Secondary color (1): */
+
+      /* shade 0 = #A22D8C = rgb(162, 45,140) = rgba(162, 45,140,1) */
+      /* shade 1 = #CF77BF = rgb(207,119,191) = rgba(207,119,191,1) */
+      /* shade 2 = #B54AA1 = rgb(181, 74,161) = rgba(181, 74,161,1) */
+      /* shade 3 = #8E1476 = rgb(142, 20,118) = rgba(142, 20,118,1) */
+      /* shade 4 = #70065C = rgb(112,  6, 92) = rgba(112,  6, 92,1) */
+
+
+      /* shade 0 = #443B9E = rgb( 68, 59,158) = rgba( 68, 59,158,1) */
+      /* shade 1 = #8881CC = rgb(136,129,204) = rgba(136,129,204,1) */
+      /* shade 2 = #5E56B0 = rgb( 94, 86,176) = rgba( 94, 86,176,1) */
+      /* shade 3 = #2D2389 = rgb( 45, 35,137) = rgba( 45, 35,137,1) */
+      /* shade 4 = #1C146D = rgb( 28, 20,109) = rgba( 28, 20,109,1) */
+

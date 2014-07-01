@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title><%= current_page.data.title %></title>
+    <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/foundation.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/workspose.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width" />
+    <script src="/assets/css/mobileCheck.js"></script>
+    <script>
+      // var angle = 0, img = document.getElementById('hylotron');
+      // document.getElementById('hylotron').onclick = function() {
+      //   angle = (angle+90)%360;
+      //   img.className = "rotate"+angle;
+      // }
+    </script>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+
+</html>

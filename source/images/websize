@@ -1,0 +1,29 @@
+var path = require('path');
+var exec = require('child_process').exec;
+var child;
+
+function resize(file,size,ext){
+  ext = ext || path.extname(file).slice(1);
+  name = path.basename(file, ext);
+  // cmd = 'sips -s format '+ext+' -Z '+size+' '+file+' --out '+name+size+'px.'+ext;
+  cmd = 'sips -s format '+ext+' --resampleHeight '+size+' '+file+' --out '+name+size+'px.'+ext;
+  console.log(name);
+  console.log(ext);
+  console.log(cmd);
+  exec(cmd, function(error,stdout){
+  });
+}
+
+function webSize(file,ext){
+  arr = [ 32, 64, 120 ];
+  for (var i in arr){
+    resize(file,arr[i],ext);
+  }
+}
+
+userArgs = process.argv.slice(2);
+
+for (var i in userArgs){
+  console.log(userArgs[i]);
+  webSize(userArgs[i], 'png');
+}
