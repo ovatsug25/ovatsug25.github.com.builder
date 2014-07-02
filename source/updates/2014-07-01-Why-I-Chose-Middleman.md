@@ -1,7 +1,8 @@
 ---
 published: false
+title: "Defaults: Why I chose Middleman over Jekyll to build a website"
 ---
-Defaults, Defaults: Why I chose Middleman over Jekyll to build a website
+Defaults: Why I chose Middleman over Jekyll to build a website
 ========================================================================
 
 Content! Content! Content!

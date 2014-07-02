@@ -1,5 +1,4 @@
 ---
-layout: sidebar
 title: NolaCon 2014 Highlights
 ---
 

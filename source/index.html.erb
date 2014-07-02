@@ -5,11 +5,7 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
   <%= partial "topbar" %>
 
   <div class="section row">
-    <div class="small-12 medium-12 large-6 columns">
-      <h3>My Story begins with this graph:</h3>
-      <div id="linegraph"></div>
-    </div>
-    <div class="small-12 medium-12 large-6 columns">
+    <div class="right small-12 medium-12 large-6 columns">
       <div class="workspose row">
         <div class="workspose-cube">
           <a href="http://radical-discovery.herokuapp.com">Radical Discovery</a>
@@ -23,13 +19,18 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
           <ul class="no-bullet">
             <% blog.articles[0...5].each do |post| %>
               <li>
-            <span class="post-date"><%= post.date.strftime("%b %-d, %Y") %> ---</span>
-            <a class="post-link" href="<%= post.url %>"><%= post.title %></a>
+              <a class="post-link" href="<%= post.url %>"><%= post.title %></a>
+              <br/>
+              <small class="post-date"><%= post.date.strftime("%b %-d, %Y") %></small>
             </li>
           <% end %>
           </ul>
         </div>
       </div>
+    </div>
+    <div class="left small-12 medium-12 large-6 columns">
+      <h3>My Story begins with this graph:</h3>
+      <div id="linegraph"></div>
     </div>
   </div>
 
@@ -40,8 +41,8 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
         <h3 class="headline">Poems</h3>
       </div>
     </div>
-    <div class="row menu">
-      <div id="poems" class="small-12 medium-12 large-12 columns">
+    <div class="row">
+      <div id="poems" class="menu small-12 medium-12 large-12 columns">
         <%= partial "poem_list" %>
       </div>
     </div>
