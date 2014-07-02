@@ -46,7 +46,7 @@ config[:layouts_dir] = '_layouts'
 
 config[:css_dir] = "assets/stylesheets"
 config[:videos_dir] = "assets/videos"
-config[:js_dir] = "assets/javascripts"
+config[:js_dir] = "assets/js"
 
 
 # LAYOUTS #
