@@ -1,0 +1,28 @@
+body, h1,h2,h3,h4,h5,h6 {
+  font-family: georgia;
+}
+.menu a {
+  display: block;
+}
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+.section {
+  margin-top:20px;
+}
+.section .headline {
+  font-weight: bold;
+}
+#DOM .line {
+  stroke: red !important;
+  stroke-width: 10px !important;
+  z-index: 9999 !important;
+}
+.container {
+}
+
+.success-guide-foreword {
+  padding: 60px;
+}
