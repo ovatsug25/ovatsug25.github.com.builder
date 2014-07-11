@@ -56,6 +56,13 @@ I came up with a long list of variables I wanted each page to have. A blog,
 all is simply a folder which lives at pretty much one level. I was between
 using Rake and Gulp and decided upon Rake because of its legibility.
 
+This was my preliminary spec:
+
+1 - Build and compile assets, move to src folder
+2 - Build and compile list of templates and partials
+3 - Go through each of the files and assign templates and build partials according to their folder structure
+4 - start server / just let go
+
 However, midway through the build process I came upon Middleman.
 Middleman does exactly what I wanted it to do.
 Basically it does a build process by filtering folders and files based on the

@@ -10,17 +10,19 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
         <div class="workspose-cube">
           <a href="http://radical-discovery.herokuapp.com">Radical Discovery</a>
         </div>
-        <!-- <div class="workspose&#45;cube"> -->
-        <!--   <a href="#success_guide">Success Guide</a> -->
-        <!-- </div> -->
+        <div class="workspose-cube">
+          <a href="http://github.com/ovatsug25">
+            <img alt="gitHub" src="/images/GitHub-Mark/PNG/GitHub-Mark-64px.png">
+          </a>
+        </div>
       </div>
-      <div class="blog row">
+      <div id="blog" class="blog row">
         <div class="small-12 columns">
           <h3 class="headline" >Updates</h3>
         </div>
         <div class="small-12 columns">
           <ul class="no-bullet">
-            <% blog.articles[0...5].each do |post| %>
+            <% blog.articles[0...3].each do |post| %>
               <li>
               <a class="post-link" href="<%= post.url %>"><%= post.title %></a>
               <br/>
@@ -32,13 +34,27 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
       </div>
     </div>
     <div class="left small-12 medium-12 large-6 columns">
+      <h2>I do...</h2>
+      <a href="#webDev"><h3>Web Dev</h3></a>
+      <a href="#econ"><h3>Economic Analysis</h3></a>
+      <a href="#story"><h3>Poems and Storytelling</h3></a>
+      <a href="#robotics"><h3>First Robotics/Lego League Mentoring</h3></a>
+      <a href="#blog"><h3>Blog</h3></a>
+    </div>
+  </div>
+
+  <div id="econ" class="section row">
+    <div class="right small-12 medium-12 large-6 columns">
+      <iframe src="//www.slideshare.net/slideshow/embed_code/13701408" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/ovatsug25/poverty-in-guatemala-13701408" title="Poverty in Guatemala" target="_blank">Poverty in Guatemala</a> </strong> from <strong><a href="http://www.slideshare.net/ovatsug25" target="_blank">Gustavo Eladio</a></strong> </div>
+    </div>
+    <div class="left small-12 medium-12 large-6 columns">
       <h3>My Story begins with this graph:</h3>
       <div id="linegraph"></div>
     </div>
   </div>
 
 
-  <div class="poems section">
+  <div id="story" class="poems section">
     <div class="row">
       <div class="small-12 columns">
         <h3 class="headline">Poems</h3>
@@ -51,7 +67,7 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
     </div>
   </div>
 
-  <div class="success-guide section">
+  <div id="robotics" class="success-guide section">
     <div class="row">
       <div class="small-12 columns">
         <h3 class="headline">Success Guide</h3>
