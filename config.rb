@@ -55,6 +55,7 @@ page "index.html", :layout => "default"
 page "/admin/*", :layout => "admin"
 page "/success_guide/*", :layout => "sidebar"
 page "/poems/*", :layout => "sidebar"
+page "/stories/*", :layout => "sidebar"
 # page '/404.html', :layout => false
 # page '/500.html', :layout => false
 # set :layout, false
