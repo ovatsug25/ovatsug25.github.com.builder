@@ -20,12 +20,6 @@ Ben Miller: Why you are pwned and you just don’t now it
 “Protect, Protect, Protect”strategy VS “Detect, Respond, Contain”
 “You’re probably already breached.” (Confirmed by Brian Foster later)
 
-Lunch with Southeastern Unversity CS Students (Randy and …) and Security Auditor (Josh)
-“Finance major becomes security auditor in commercial finance firm by applying for another job internally.”
-“Is educating himself on his own dime.”
-“Travels mostly for education.”
-Also CS experience:
-“Making students loans worth it.” after Se
 
 Conversation with Paul Asadoorian
 Embedded devices operate on very low memory footprint and binaries are easy to reverse. (Never saw this before!)
