@@ -1,5 +1,5 @@
 ---
-title: "Building a website w/ Middleman: The Unsaid"
+title: "Building a website on Middleman: Easier and Better than Jekyll"
 ---
 
 >  This article is taken from a talk I did at
