@@ -11,6 +11,9 @@ gem "tilt"
 gem "liquid"
 gem "kramdown"
 
+# For blog-post summaries
+gem "nokogiri"
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
