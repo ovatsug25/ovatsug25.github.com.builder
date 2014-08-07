@@ -1,8 +1,10 @@
 ---
-title: "Defaults: Why I chose Middleman over Jekyll to build a website"
+title: "Defaults: Choosing a Static Site Builder"
+misc: "Why I chose Middleman over Jekyll to build a website"
 ---
-Defaults: Why I chose Middleman over Jekyll to build a website
-========================================================================
+Defaults: Choosing a Static Site Builder
+========================================
+
 
 Content! Content! Content!
 
