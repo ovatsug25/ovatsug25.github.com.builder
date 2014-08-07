@@ -1,0 +1,152 @@
+
+
+
+
+
+Watches for file changes
+——————————————————————————
+<h3>Beware!</h3>
+
+Can activate LiveReload which is pretty handy
+—————————————————————————————————————————————
+config.rb -> changeLine
+<h3>I’m faster!</h3>
+
+Build Command!
+—————————————-
+mm build
+
+
+
+Template Helpers
+* Link
+* Output
+* Tag
+* Asset
+* Form
+* Format
+* Placeholder
+* Page Classes
+* Custom Helpers
+
+Directories
+* Source
+* Build
+* Data
+* Lib
+
+Blogging
+* Articles
+* Generating
+* Custom path and URL
+* Layouts
+* Listing
+* Helpers
+* Tags
+* Calendar Pages
+* Article summaries
+* Pagination, pageable: true, blog.paginate = true
+* Draft articles
+* Time zone
+* Custom article collections
+* Artcile subdirectory
+Wrong: [My Photo](photo.jpg)
+Right: [My Photo](2011-10-18-middleman/photo.jpg)
+
+
+
+
+
+
+Build with Blog!
+================
+mm init —-help
+
+mm init front-end-party-w-blog --template=blog
+###
+activate :blog do |blog|
+  blog.name = "updates"
+  blog.prefix = "updates"
+  blog.layout = "sidebar"
+  # blog.sources = "{year}-{month}-{day}-{title}.md"
+  # blog.prefix = "blog"
+  # blog.permalink = "blog/{year}/{title}.html"
+  # calendar_template
+  # year_template
+  # month_template
+  # day_template
+  # tag_template
+end
+
+Add another blog
+————————————————
+
+
+
+Project Blog
+————————————
+git checkout --orphan middleman; git rm -rf .
+git checkout --orphan middleman; rm -rf $(ls)
+***NOTE: alias ll="ls -a”***
+middleman init
+cat "gem 'middleman—gh-pages’” >> Gemfile
+echo "'require 'middleman-gh-pages'" >> Rakefile
+
+ovatsug25.github.io/weather
+
+
+https://github.com/jekyll/jekyll/tree/master/site
+
+collections:
+  docs:
+    output: true
+
+https://raw.githubusercontent.com/jekyll/jekyll/master/site/_docs/assets.md
+
+
+
+https://github.com/middleman/middleman-blog
+https://github.com/ngs/middleman-blog-similar
+
+https://github.com/ovatsug25/weather/tree/gh-pages
+
+http://directory.middlemanapp.com/#/extensions/all
+http://directory.middlemanapp.com/#/templates/all
+
+
+ignore "/ignore-this-template.html"
+# Assumes the file source/about/template.html.erb exists
+
+
+set :relative_links, true
+<a href='../about/'>About</a>
+
+<%= link_to "Hello", "/hello.html" %>
+<%= link_to "Yo Hello", "/yo/hello.html" %>
+
+<%= link_to "Hello", gp_prefix(”/hello.html”) %>
+<%= link_to "Yo Hello", gp_prefix(”/yo/hello.html”) %>
+
+helpers do
+  def gp_prefix(string)
+    "/weather" + string
+  end
+end
+
+activate :blog do |blog|
+  blog.permalink = "blog/{year}/{title}.html"
+end
+
+
+helpers do
+  def gp_prefix(string)
+    "/weather" + string
+  end
+  def link_to(*args, &block)
+    new = "/weather" + args[0]
+    seperate_args = args[1..]
+    super(new, args, &block)
+  end
+end
+
+

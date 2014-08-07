@@ -9,6 +9,7 @@ gem "middleman-syntax", "~>2.0.0"
 
 gem "tilt"
 gem "liquid"
+gem "kramdown"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"

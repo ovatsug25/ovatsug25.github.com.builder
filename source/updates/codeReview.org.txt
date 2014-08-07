@@ -1,0 +1,29 @@
+published: false
+———
+We’ve all been there before. Sitting alone in a coffeeshop learning to code. Back in the day, kids would follow manuals, uninhibited by best practices. Coding today is a whole different story. Though it is fun, though it is cool, many of us are learning it because it is something we need to know for the workplace. And we need to learn it well and fast.
+
+Though bad code often works, many of us, especially those of us learning by ourselves and who are doing it with the workplace in mind are well aware of standards. Things need to work, but they need to be fast and legible too. Looking up all these standards and becoming versed in them is however a problem.
+
+Especially when you’re far and away and have a project to complete on time. There may be warts, however these warts can and should be fixed. Introduce the programmer!
+
+The programmer is a special specimen who loves to teach and tell others about how to do things right.
+
+The programmer is also time compressed and also lazy.
+
+Why don’t we get the other programmer to consult a new programmer on how to do things, how to fix a quick line of code, how to fix something?
+
+We are embracing the idea that worse is better.
+
+We want people to ship code, even if it is worse.
+
+Shipping code is better code.
+
+So upload your code up to the website.
+
+The condition is that it must be shipped. You must provide a little website where we can see the function in action, however poorly performed that may be.
+
+Now we will get programmers to contribute to your idea and help make it better.
+
+Shipped code is better code!
+
+Let’s go! Leave your fear behind!

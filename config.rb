@@ -51,18 +51,21 @@ config[:js_dir] = "assets/js"
 
 # LAYOUTS #
 ###########
-page "index.html", :layout => "default"
-page "/admin/*", :layout => "admin"
-page "/success_guide/*", :layout => "sidebar"
-page "/poems/*", :layout => "sidebar"
-page "/stories/*", :layout => "sidebar"
+
+set :layout, "default"
+# page "index.html", :layout => "default"
+# page "the_data_center/*", :layout => "default"
+# page "/admin/*", :layout => "admin"
+# page "/melissa/*", :layout => "sidebar"
+# page "/success_guide/*", :layout => "sidebar"
+# page "/poems/*", :layout => "sidebar"
+# page "/stories/*", :layout => "sidebar"
 # page '/404.html', :layout => false
 # page '/500.html', :layout => false
 # set :layout, false
 
 
-# set :markdown_engine, :redcarpet
-# set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown_engine, :kramdown
 
 # set :
 set :liquid
