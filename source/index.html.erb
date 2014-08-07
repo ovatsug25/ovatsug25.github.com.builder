@@ -2,16 +2,15 @@
 title: Gustavo Tavares - Inspired by Dragon Fruit
 ---
 <div class="container">
-  <%= partial "topbar" %>
-
   <div class="section row">
     <div class="small-12 medium-12 large-6 columns">
       <h2>I do...</h2>
       <h3><a href="#webDev">Web Dev</h3></a>
-      <h3><a href="#econ">Economic Analysis</h3></a>
-      <h3><a href="#story">Poems and Storytelling</h3></a>
+      <h3><a href="#econ">Data Analysis</h3></a>
+      <h3><a href="#story">Storytelling</h3></a>
       <h3><a href="#robotics">First Robotics/Lego League Mentoring</h3></a>
       <h3><a href="#blog">Blog</h3></a>
+      <h3>Contact <a href="/contact.html">here!</h3></a>
     </div>
     <div class="small-12 medium-12 large-6 columns">
       <div class="workspose row">
@@ -26,7 +25,11 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
       </div>
       <div id="blog" class="blog row">
         <div class="small-12 columns">
-          <h3 class="headline" >Updates</h3>
+          <h3 class="headline" >
+            <a href="/updates">
+            Updates
+          </a>
+        </h3>
         </div>
         <div class="small-12 columns">
           <ul class="no-bullet">
@@ -75,13 +78,23 @@ title: Gustavo Tavares - Inspired by Dragon Fruit
 
   <div id="story" class="poems section">
     <div class="row">
-      <div id="poems" class="menu small-12 medium-6 large-6 columns">
-        <h3 class="headline">Poems</h3>
-        <%= partial "poem_list" %>
+      <div id="melissa" class="menu small-12 medium-6 large-6 columns">
+        <h3 class="headline">
+          <a href="/melissa/index.html">
+          Melissa: A Love Affair
+        </a>
+      </h3>
+          <a href="/melissa/index.html">
+        <img src="/melissa/images/on-purchase/grille.jpg" alt="Hey Car!">
+        </a>
       </div>
-      <div class="small-12 medium-6 large-6 columns">
+      <div class="small-12 medium-3 large-3 columns">
         <h3 class="headline">Stories</h3>
         <a href="/stories/corrupt_cop.html">Corrupt Cop</a>
+      </div>
+      <div id="poems" class="menu small-12 medium-3 large-3 columns">
+        <h3 class="headline">Poems</h3>
+        <%= partial "poem_list" %>
       </div>
     </div>
   </div>
