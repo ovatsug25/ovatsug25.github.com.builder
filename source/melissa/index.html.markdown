@@ -2,25 +2,18 @@
 2. [The Purchase](#purchase)
 3. [How to Drive Manual](#how-to-drive-stick)
 4. [Looking Beautiful: How to Wash a Car You Care About](#looking-beautiful)
-<ul>
-* [Wash and Detailing Products](#wash-and-detailing-products)
-* [Leather Repair](#leather-repair)
-</ul>
+  * [Wash and Detailing Products](#wash-and-detailing-products)
+  * [Leather Repair](#leather-repair)
 5. [Car Repair](#car-repair)
-<ul>
-* [Jacks and Chassis](#jacks-and-chassis)
-* [Suspension, Springs, Struts and Ride](#susp-strut-ride)
-</ul>
+  * [Jacks and Chassis](#jacks-and-chassis)
+  * [Suspension, Springs, Struts and Ride](#susp-strut-ride)
 6. [Performance Driving](#performance-driving)
-<ul>
-* [RWD vs FWD](#rwd-vs-fwd)
-</ul>
+  * [RWD vs FWD](#rwd-vs-fwd)
 7. [Car Tuning :stuck_out_tongue_winking_eye:](#car-tuning)
-<ul>
-* Turbos
-* Supercharges
-</ul>
-8. Similarily Obssesed Car Fanatics
+  * [Turbos](#turbos)
+  * [Superchargers](#superchargers)
+8. [Similarily Obssesed Car Fanatics](#car-fans)
+{:toc: #toc .toc}
 
 ---
 
@@ -28,8 +21,8 @@
 [Wish List](/melissa/wish-list.html)
 
 
-<div id="why"></div>
-## The Why
+The Why {#why}
+--------------
 
 I needed a car.
 I've always loved cars, and as the heavens had it a relatively cheap,
@@ -38,12 +31,14 @@ She was beautiful sure-though perhaps a little rough around the edges.
 As I got to know her though, I began to appreciate her deep simplicity, and
 from her learned what a car was.
 
+The Purchase {#the-purchase}
+----------------------------
 
-<div id="the-purchase"></div>
-## The Purchase
 First off: Here's the Craigslist ad for her.
 
-## How to Drive
+How to Drive {#how-to-drive-stick}
+----------------------------------
+
 Once I got her, I needed to learn how to drive her. My friend Angelica helped
 me get her home. Once I got her home though I was on my own.
 It took me a bit and it was a little Scary, but I finally learned how to
@@ -51,7 +46,8 @@ drive a manual transmission.
 
 Read more about that here[/melissa/manual-trans.html].
 
-## Looking Beautiful
+Looking Beautiful {#looking-beautiful}
+--------------------------------------
 
 Now Melissa needed a little bit of work. But before I ever got to work
 on her, I needed to know how she looked. I needed to learn how to beautify
@@ -130,6 +126,9 @@ Teddy bear squeeze.
 
 As well, I've looked into leather repair, and so far I've tried these:
 
+http://www.leathermagic.com/Pages/ProProds.htm
+http://www.leatherrepairkits.com/repairkit.php
+
 #### Interior Chemicals
 Meguiar's G10916 Gold Class Rich Leather Cleaner & Conditioner - 15.2 oz.
 Leather Conditioner & Restorer - Leather Nova
@@ -145,14 +144,18 @@ Addendum: Some reviewers have noted that Leather Honey didn't soak in to whateve
 
 Finally, how do I get her running.
 
-Car Repair
-----------
+Car Repair {#car-repair}
+------------------------
 
-## Check these guys out!
+http://www.crunchyfrogpro.com/bmw/e30/power_window_motor_repair.html
+
+### Jacks and Chassis {#jacks-and-chassis}
+
+##### Check these guys out!
 http://www.scottykilmer.com
 http://www.ericthecarguy.com
 
-## And these if you have an E30!
+##### And these if you have an E30!
 http://www.e30zone.net/e30zonewiki/index.php/Main_Page
 http://www.bimmerdiy.com/dir/e30
 
@@ -166,10 +169,9 @@ http://www.r3vlimited.com/board/showthread.php?t=159148
 
 
 
-### Tools:
+### Tools {#tools}
 
-As a minimum you'll need
-
+#### Minimum
 A set of metric combination wrenches
 1/4" and 3/8" ratchets
 Metric sockets, regular and deep
@@ -179,15 +181,12 @@ Screwdrivers
 Jackstands
 Jack
 
-PART 2
-======
+#### Nice to haves
 torque wrench
 impact drill
 100 gal air compressor.
 
-
-Part 3
-=====
+#### Last considerations
 To the previous lists I would add:
 - A second torque wrench (so you have a large and small)
 - Breaker bar, an 18" or better yet 24" if you will be doing suspension work
@@ -210,11 +209,6 @@ www.amazon.com
 www.advanceautoparts.com
 www.ebay.com
 
-Forums
-------
-http://www.r3vlimited.com/board/index.php
-
-http://www.e30club.com
 
 
 Get Historical Info on Your Car
@@ -226,20 +220,15 @@ http://www.bmwarchive.org/vin/bmw-vin-decoder.html
 http://bmwmregistry.com/model_faq.php?id=8
 
 
-Performance Driving
--------------------
+Performance Driving {#performance-driving}
+------------------------------------------
 letting the throttle goes puts more weight on the tires
 
 turing with brakes to keep car angled downward
 
 
-
-
-
-
-
-Car Tuning
-----------
+Car Tuning {#car-tuning}
+------------------------
 
 The chip is the only one on your list that will provide you with any
 real gains. Even modded M20's don't make over 200 Hp.
@@ -252,6 +241,10 @@ if you want a fast car consider turbo, engine swaps or selling it.
 You should be able to find a 92 or later 325i or 525i with the M50 engine
 in a junk yard and perform a complete bolt-in engine swap
 for less than $1500 if you do the work yourself.
+
+#### Forums
+http://www.r3vlimited.com/board/index.php
+http://www.e30club.com
 
 ## Playing with Car Computers / AKA WAR Chip
 http://forums.millerperformancecars.com/index.php?topic=37.0
@@ -268,16 +261,16 @@ http://www.e30v8.com
 #### Overview of Options
 http://www.rtsauto.com/e30-engine-swap-options-2/
 
-## Great Buy Guide
+#### Great Buy Guide
 http://e30.iamgary.com/how-to-buy-a-bmw-e30/
 
-## Great Blog
+#### Great Blog
 http://e30.iamgary.com
 
-## E30 Maintenance Log
+#### E30 Maintenance Log
 http://bmw.e30tuner.com/my318is_maintlog.php
 
-## Great Maintenance Info from a Buyer's Perspective
+#### Great Maintenance Info from a Buyer's Perspective
 http://www.tux.org/~joel/bmw/e30/common-problems.txt
 
 
@@ -293,25 +286,26 @@ Note: Has videos from driving, info on repairs, and even maintenance costs!
 http://www.esatclear.ie/~bpurcell/index.html
 http://www.esatclear.ie/~bpurcell/318isdriving.html#driving_costs
 
-** Craig Rich BMW E30**
+**Craig Rich BMW E30**
 http://www.craigrich.net/bmw.htm
 
-** Ben Liaw's BMW Links from the Internet Archive **
+**Ben Liaw's BMW Links from the Internet Archive**
+
 https://web.archive.org/web/20130119123149/http://www.bmwlinks.com/
 
 http://www.e30info.com
 
-* The What's Cool section is particularily handy! *
+* Note: The What's Cool section is particularily handy!
 https://web.archive.org/web/20120420113127/http://www.bmwlinks.com/Cool/
 
 > Pro-tip: Many of these BMW links are old and gone. If you can't reach them,
 > try pulling a copy from the internet archive.
 
 
-## More from Gary
+#### More from Gary
 http://bmw-lover.tumblr.com
 
-## E30 Lifestyle blog
+#### E30 Lifestyle blog
 http://e30-life.tumblr.com
 
 BMW Car Clubs
