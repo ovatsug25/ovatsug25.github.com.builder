@@ -2,10 +2,6 @@
 title: "Defaults: Choosing a Static Site Builder"
 misc: "Why I chose Middleman over Jekyll to build a website"
 ---
-Defaults: Choosing a Static Site Builder
-========================================
-
-
 Content! Content! Content!
 
 I've been dying to make and update the content on my website for some time.

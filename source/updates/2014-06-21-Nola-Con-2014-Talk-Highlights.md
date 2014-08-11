@@ -2,9 +2,6 @@
 title: NolaCon 2014 Highlights
 ---
 
-NolaCon 2014 Highlights
-=======================
-
 Evan Booth Keynote: Terminal Cornucopia: Demystifying the Mullet
 “Ideas are raw material”
 “Mistaking execution for creatiivity”

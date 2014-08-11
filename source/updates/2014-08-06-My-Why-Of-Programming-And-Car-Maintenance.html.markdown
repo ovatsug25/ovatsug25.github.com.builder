@@ -1,13 +1,18 @@
 ---
 title: My Why of Programming and Car Maintenance
 ---
+I program to save time. If you are a non-programmer,
+this may not seem as obvious to you. Programmers are usually talked
+about in start-up ideas and understood through products like Facebook
+and Google. The reality for me is a little bit different.
 
-My Why of Programming and Car Maintenance
-=========================================
-
-I program to save time. If you are a non-programmer, this may not seem as obvious to you. Programmers are usually talked about start-up ideas and understood through products like Facebook and Google. The reality for me is a little bit different.
-
-In my quest to purchase a car, I came upon this [table](http://bmw.e30tuner.com/my318is_maintlog.php) which details the maintenance costs for a particular BMW E30. I was trying to peg an estimate as to how much this car would cost me in total. A non-programmer would look at this and would spend 5-10 minutes doing a copy paste. It could be over that if this person does not know Excel shortcuts. Still, the work is repetive and perhaps a little dull.
+In my quest to purchase a car, I came upon this
+[table](http://bmw.e30tuner.com/my318is_maintlog.php) which details
+the maintenance costs for a particular BMW E30. I was trying to peg
+an estimate as to how much this car would cost me in total. A non-programmer
+would look at this and would spend 5-10 minutes doing a copy paste.
+It could be over that if this person does not know Excel shortcuts.
+Still, the work is repetive and perhaps a little dull.
 
 As a programmer, this took on the order of five minutes, felt intellectually engaging, and there was very little room for a mistake. Let me walk you through my code.
 
